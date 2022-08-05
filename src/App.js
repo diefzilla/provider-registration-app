@@ -1,9 +1,9 @@
 import './App.css';
-import DisplayFormDataInTable from "./form-data-table/ProviderRegistrationFormAndTable";
+import ProviderRegistrationFormAndTable from "./form-data-table/ProviderRegistrationFormAndTable";
 
 function App() {
   return (
-    <DisplayFormDataInTable />
+    <ProviderRegistrationFormAndTable />
   );
 }
 export default App;
