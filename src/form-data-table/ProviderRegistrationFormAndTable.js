@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FormInput from "./FormInput";
 import Table from "./Table";
+import './Form.css';
 function Main(){
  const [tableData, setTableData] = useState([])
  const [formInputData, setformInputData] = useState(
