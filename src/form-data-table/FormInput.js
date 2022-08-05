@@ -1,7 +1,7 @@
 function FormInput({handleChange, formInputData, formErrors, handleSubmit, formIsValid}){
     return(
         <div className="form-row row">
-          <h2>Please complete this form to register new a provider.</h2>
+          <h2>Please complete this form to register a new provider.</h2>
         <div className="col">
           <label htmlFor="firstName">First Name:</label>
           <input type="text" onChange={handleChange} value={formInputData.firstName} name="firstName" className="form-control" placeholder="First Name" />
